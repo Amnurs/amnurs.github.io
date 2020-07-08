@@ -1,16 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="stylesheet/index.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link rel="icon" href="doliamnur.jpg" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 	<title>Doli Amnur</title>
 </head>
 <body>
-<h1 class="Tengah1"><b>Doli Amnur</b></h1>
-	<p class="Teng">The second child from five brothers</p>
-	<hr><b></b></hr>
-		<p class="Teng">I'm studying informatics engineering at<a href="https://stikompoltek.ac.id/" target="_blank"> Stikom PolTek Cirebon.</a></p>
-	<p class="Teng">I'm from <a href="https://www.google.com/maps/place/Indramayu,+Kec.+Indramayu,+Kabupaten+Indramayu,+Jawa+Barat/@-6.3472843,108.2946502,13z/data=!4m13!1m7!3m6!1s0x2e6ec8523dd78761:0x301e8f1fc28b930!2sKabupaten+Indramayu,+Jawa+Barat!3b1!8m2!3d-6.33731!4d108.3258329!3m4!1s0x2e6eb951a07812b7:0x9f2e03cfbf1b0b2f!8m2!3d-6.3487389!4d108.3286285" target="_blank">Indramayu, West Java, Indonesia.</a></p>
+	<!-- Sidebar -->
+	<input type="checkbox" id="check">
+	<div class="sidebar">
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#portofolio">Portofolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	<header>
+	<div class="container">
+		<h1><a href="">Amnurs</a></h1>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#portofolio">Portofolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<!-- mobile menu -->
+		<label for="check" class="mobile-menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></label>
+	</div>
+	</header>
+	<!-- Banner -->
+	<section class="banner">
+		<div class="container">
+			<img src="img/asiap.jpg">
+			<h2>Hello...<br> 
+				Welcome to my page</h2>
+			<p>Doli Amnur</p>
+		</div>
+		
+	</section>
+	<!-- About -->
+	<section id="about">
+		<div class="container">
+			<h3>About</h3>
+			<p>Hello my name is Doli Amnur I'm from <a href="https://www.google.com/maps/place/Indramayu,+Kec.+Indramayu,+Kabupaten+Indramayu,+Jawa+Barat/@-6.3472843,108.2946502,13z/data=!4m13!1m7!3m6!1s0x2e6ec8523dd78761:0x301e8f1fc28b930!2sKabupaten+Indramayu,+Jawa+Barat!3b1!8m2!3d-6.33731!4d108.3258329!3m4!1s0x2e6eb951a07812b7:0x9f2e03cfbf1b0b2f!8m2!3d-6.3487389!4d108.3286285" target="_blank">Indramayu, West Java, Indonesia. I am the only second child of five siblings, I was born in October 1999. Now I am studying a Bachelor Degree at<a href="https://stikompoltek.ac.id/" target="_blank"> Stikom PolTek Cirebon Taking the Faculty of Information Engineering.</a></p>
+			<p>And ya that's a brief introduction about me, Thank You.</p>
+		</div>
+	</section>
+	<!-- Skills -->
+	<section id="skills">
+		<div class="container">
+			<h3>Skills</h3>
+			<h4>HTML</h4>
+			<div class="bar">
+				<span class="nilai html">75%</span>
+			</div>
+			<h4>CSS</h4>
+			<div class="bar">
+				<span class="nilai css">75%</span>
+			</div><h4>C++</h4>
+			<div class="bar">
+				<span class="nilai c">75%</span>
+			</div><h4>Adobe Photoshop</h4>
+			<div class="bar">
+				<span class="nilai aps">7%</span>
+			</div>
+			<h4>Corel Draw</h4>
+			<div class="bar">
+				<span class="nilai cd">70%</span>
+			</div>
+		</div>
+	</section>
+	<!-- Bagian Portofolio -->
+	<section id="portofolio">
+		<div class="container">
+			<h3>Portofolio</h3>
+			<div class="col-4">
+				<a href="">
+					<img src="img/comingsoon.png">
+					<span>Portofolio 1</span>
+				</a>
+			</div>
+			<div class="col-4">
+				<a href="">
+					<img src="img/comingsoon.png">
+					<span>Portofolio 2</span>
+				</a>
+			</div>
+			<div class="col-4">
+				<a href="">
+					<img src="img/comingsoon.png">
+					<span>Portofolio 3</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- Contact -->
+	<section id="contact">
+		<div class="container">
+			<h3>Contact</h3>
+			<div class="col-3">
+				<h4>Alamat</h4>
+				<p>Blok KUD, rt/rw 010/02, Desa Sukamelang, Kec Kroya, Kab Indramayu Jawa barat 45265</p>
+			</div>
+			<div class="col-3">
+				<h4>E-mail</h4>
+				<p>amnurs1999@gmail.com</p>
+			</div>
+			<div class="col-3">
+				<h4>Social Media</h4>
+				<p>IG : @amnr_dl<br>
+				WA : +6285156987321</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<small>Copyright &copy; 2020 | Doli Amnur.</small>
+		</div>
+	</footer>
 </body>
 </html>
